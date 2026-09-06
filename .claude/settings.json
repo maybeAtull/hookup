@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(git fetch *)",
+      "Bash(git add *)",
+      "Bash(git commit -m 'Merge remote-tracking branch '\\\\''origin/main'\\\\'' into main *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
+    ]
+  }
+}

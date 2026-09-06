@@ -7,7 +7,12 @@ export default function Home(): ReactElement {
   return (
     <div className="mx-auto w-full max-w-6xl px-6 py-12">
       <SiteHeader hookCount={HOOKS.length} />
-      <HookGrid hooks={HOOKS} />
+      <section id="hooks" className="scroll-mt-8">
+        <h2 className="mb-6 text-sm font-medium tracking-wide text-foreground/50 uppercase">
+          The directory
+        </h2>
+        <HookGrid hooks={HOOKS} />
+      </section>
     </div>
   );
 }
